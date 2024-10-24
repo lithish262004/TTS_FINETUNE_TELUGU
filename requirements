@@ -1,0 +1,4 @@
+Transformers: 4.44.2
+PyTorch: 2.4.1+cu121
+Datasets: 3.0.1
+Tokenizers: 0.19.1
