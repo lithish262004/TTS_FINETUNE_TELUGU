@@ -102,6 +102,8 @@ Mean Opinion Score (MOS): A subjective score based on human evaluations of audio
 Alignment and accuracy: Check how well the generated speech aligns with the input text.
 By following this methodology, we can ensure that the SpeechT5 model is effectively fine-tuned on the LJ Speech dataset, resulting in a robust TTS system capable of producing high-quality speech outputs.
 
+LINK TO MODEL: https://huggingface.co/lithish2602/TTS_FINETUNE_TELUGU
+
 RESULTS:
 
 Results In this section, we present the results of our Text-to-Speech (TTS) system, including both objective and subjective evaluations. We tested the model's performance on two types of speech: English technical speecH
