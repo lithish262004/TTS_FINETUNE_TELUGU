@@ -1,16 +1,17 @@
 TTS_FINETUNE_TELUGU
 
-Overview
+Overview:
 This project implements a Text-to-Speech (TTS) system using the SpeechT5 model fine-tuned on themozilla-foundation common_voice_17_0 dataset for telugu language. The goal is to generate natural-sounding speech from textual input, leveraging state-of-the-art machine learning techniques.
 
-Introduction
+Introduction:
 Text-to-Speech (TTS) technology converts written text into spoken words, enabling computers to generate human-like speech. This technology has gained significant traction due to its diverse applications across various fields, including:
 
 Accessibility: TTS assists visually impaired individuals by reading text aloud, enhancing their ability to interact with digital content.
 Education: It facilitates language learning and literacy development by providing auditory feedback and pronunciation guidance.
 Entertainment: TTS is utilized in audiobooks, video games, and virtual assistants, enhancing user experience through engaging and immersive interactions.
 Customer Service: Automated voice response systems use TTS to provide information and support, improving efficiency and accessibility.
-Importance of Fine-Tuning
+ 
+Importance of Fine-Tuning:
 While pre-trained models like SpeechT5 offer a robust starting point for TTS applications, fine-tuning on specific datasets is crucial for several reasons:
 
 Personalization: Fine-tuning allows the model to adapt to specific voices, accents, and speaking styles, resulting in more natural and relatable speech output.
@@ -23,7 +24,7 @@ Performance Optimization: Fine-tuning can lead to better alignment of text and a
 
 In this project, we leverage the LJ Speech dataset to fine-tune the SpeechT5 model, aiming to create a TTS system that excels in delivering high-quality, lifelike speech tailored to specific user needs.
 
-Methodology
+Methodology:
 This section outlines the detailed steps taken for model selection, dataset preparation, and fine-tuning of the Text-to-Speech (TTS) system using the SpeechT5 model.
 
 1. Model Selection
@@ -92,6 +93,7 @@ Monitor training loss and validation metrics during the fine-tuning process to p
 Model Saving:
 
 After fine-tuning, save the trained model and any associated artifacts (e.g., tokenizer) for later use in generating speech.
+
 4. Evaluation
 Post-Fine-Tuning Evaluation:
 
