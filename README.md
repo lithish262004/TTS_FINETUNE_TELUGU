@@ -18,11 +18,11 @@ Personalization: Fine-tuning allows the model to adapt to specific voices, accen
 
 Domain Adaptation: Different applications may require distinct speech characteristics. Fine-tuning enables the model to better handle domain-specific terminology and contexts.
 
-Quality Improvement: By training on curated datasets like LJ Speech, the model learns to generate clearer, more expressive, and emotionally nuanced speech, enhancing overall user satisfaction.
+Quality Improvement: By training on curated datasets mozilla-foundation/common_voice_17_0 , the model learns to generate clearer, more expressive, and emotionally nuanced speech, enhancing overall user satisfaction.
 
 Performance Optimization: Fine-tuning can lead to better alignment of text and audio, reducing issues like mispronunciations or unnatural intonations, thus improving the model’s reliability in real-world applications.
 
-In this project, we leverage the LJ Speech dataset to fine-tune the SpeechT5 model, aiming to create a TTS system that excels in delivering high-quality, lifelike speech tailored to specific user needs.
+In this project, we leverage the mozilla-foundation/common_voice_17_0 dataset to fine-tune the SpeechT5 model, aiming to create a TTS system that excels in delivering high-quality, lifelike speech tailored to specific user needs.
 
 Methodology:
 This section outlines the detailed steps taken for model selection, dataset preparation, and fine-tuning of the Text-to-Speech (TTS) system using the SpeechT5 model.
