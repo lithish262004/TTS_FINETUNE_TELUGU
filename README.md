@@ -1,4 +1,7 @@
-Overview This project implements a Text-to-Speech (TTS) system using the SpeechT5 model fine-tuned on themozilla-foundation common_voice_17_0 dataset for telugu language. The goal is to generate natural-sounding speech from textual input, leveraging state-of-the-art machine learning techniques.
+TTS_FINETUNE_TELUGU
+
+Overview
+This project implements a Text-to-Speech (TTS) system using the SpeechT5 model fine-tuned on themozilla-foundation common_voice_17_0 dataset for telugu language. The goal is to generate natural-sounding speech from textual input, leveraging state-of-the-art machine learning techniques.
 
 Introduction
 Text-to-Speech (TTS) technology converts written text into spoken words, enabling computers to generate human-like speech. This technology has gained significant traction due to its diverse applications across various fields, including:
